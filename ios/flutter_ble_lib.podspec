@@ -16,7 +16,8 @@ A new flutter plugin project.
   s.public_header_files = 'Classes/**/*.h' 
   s.dependency 'Flutter'
   s.dependency 'MultiplatformBleAdapter', '0.1.3'
-
+  s.swift_versions = ['4.0', '4.2', '5.0']
+  
   s.ios.deployment_target = '10.0'
 end
 
